@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Dribbble, Instagram, LinkedIn, Twitter } from './components/Icons/index'
+import { Dribbble, Instagram, LinkedIn, Twitter } from '../components/Icons/index'
 
 export default function Home() {
   return (
