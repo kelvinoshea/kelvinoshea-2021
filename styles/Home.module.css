@@ -26,7 +26,7 @@
   font-family: Tobias-Light;
   user-select: none;
   animation: TitleFadeIn 1.5s 0.5s ease-out both;
-  letter-spacing: -1px;
+  letter-spacing: -3px;
 }
 
 .title,
@@ -147,3 +147,4 @@
     width: 100%;
   }
 }
+
