@@ -8,7 +8,11 @@ export default function Home() {
       <Head>
         <title>Kelvin O'Shea - Product Designer</title>
         <link rel="icon" href="/favicon.ico" />
-        <meta name='viewport' content='initial-scale=1, viewport-fit=cover'></meta>
+        <meta name="description" content="Kelvin O'Shea - Product Design @ Clipchamp"/>
+          <meta name="author" content="Kelvin O'Shea"/>
+          <meta http-equiv='X-UA-Compatible' content='IE=edge'/>
+          <meta http-equiv='content-type' content='text/html; charset=utf-8'/>
+	        <meta name='viewport' content='width=device-width, initial-scale=1.0, minimal-ui, user-scalable=0'/>
       </Head>
 
       <main className={styles.main}>
