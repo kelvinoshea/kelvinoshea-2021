@@ -8,6 +8,7 @@ export default function Home() {
       <Head>
         <title>Kelvin O'Shea - Product Designer</title>
         <link rel="icon" href="/favicon.ico" />
+        <meta name='viewport' content='initial-scale=1, viewport-fit=cover'></meta>
       </Head>
 
       <main className={styles.main}>
