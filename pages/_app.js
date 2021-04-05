@@ -1,7 +1,7 @@
 import '../styles/globals.css'
 
-function MyApp({ Component, pageProps }) {
+function KelvinOShea({ Component, pageProps }) {
   return <Component {...pageProps} />
 }
 
-export default MyApp
+export default KelvinOShea

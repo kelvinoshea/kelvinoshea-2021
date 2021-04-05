@@ -1,9 +1,15 @@
+:root {
+  --white: #fff;
+  --deepmaroon: #282025;
+}
+
 html,
 body {
   padding: 0;
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+  font-family: Dazzed-Medium;
+  background-color: var(--deepmaroon);
+  color: #fff;
 }
 
 a {
@@ -13,4 +19,18 @@ a {
 
 * {
   box-sizing: border-box;
+}
+
+p {
+  margin: 0;
+}
+
+@font-face {
+  font-family: Dazzed-Medium;
+  src: url('./fonts/Dazzed-Medium.woff2');
+}
+
+@font-face {
+  font-family: Tobias-Light;
+  src: url('./fonts/Tobias-Light.woff2');
 }
