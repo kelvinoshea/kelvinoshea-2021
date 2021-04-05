@@ -10,6 +10,7 @@ body {
   font-family: Dazzed-Medium;
   background-color: var(--deepmaroon);
   color: #fff;
+  min-height: -webkit-fill-available;
 }
 
 a {
