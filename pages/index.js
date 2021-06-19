@@ -5,6 +5,7 @@ import { Dribbble, Instagram, LinkedIn, Twitter } from '../components/Icons/inde
 export default function Home() {
   return (
     <div className={styles.container}>
+      <div className={styles.container2}>
       <Head>
         <title>Kelvin O'Shea - Product Designer</title>
         <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png"/>
@@ -42,6 +43,7 @@ export default function Home() {
         <span><Twitter/></span>
         <span><Instagram/></span>
       </footer>
+      </div>
     </div>
   )
 }
