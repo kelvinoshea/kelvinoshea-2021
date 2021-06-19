@@ -36,14 +36,13 @@ export default function Home() {
           </p>
 
         </main>
-
-        <footer className={styles.iconContainer}>
+      </div>
+      <footer className={styles.iconContainer}>
           <span><LinkedIn/></span>   
           <span><Dribbble/></span>
           <span><Twitter/></span>
           <span><Instagram/></span>
         </footer>
-      </div>
     </div>
   )
 }

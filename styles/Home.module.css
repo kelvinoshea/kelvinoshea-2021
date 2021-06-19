@@ -1,19 +1,16 @@
 .layout {
-  height: -webkit-fill-available;
-  height: 100vh;
-  overflow: hidden;
-  width: 100vw;
-}
+  top: 0;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  position: fixed;
+ }
 
 .container {
   padding: 6rem;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
   height: 100%;
-  width: 100%;
-  overflow: auto;
+  display: flex;
+  justify-content: center;
 }
 
 .main {
@@ -70,6 +67,7 @@
   grid-gap: 24px;
   position: fixed;
   bottom: 6rem;
+  left: 6rem;
 }
 
 
@@ -123,6 +121,7 @@
 
   .iconContainer {
     bottom: 2.5rem;
+    left: 2.5rem;
   }
 }
 
