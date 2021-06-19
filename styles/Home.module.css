@@ -68,6 +68,8 @@
   display: inline-grid;
   grid-auto-flow: column;
   grid-gap: 24px;
+  position: fixed;
+  bottom: 6rem;
 }
 
 
@@ -117,6 +119,10 @@
 
   .container {
     padding: 2.5rem;
+  }
+
+  .iconContainer {
+    bottom: 2.5rem;
   }
 }
 
