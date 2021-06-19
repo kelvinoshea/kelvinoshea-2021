@@ -1,11 +1,11 @@
-.container {
+.layout {
   height: -webkit-fill-available;
   height: 100vh;
   overflow: hidden;
   width: 100vw;
 }
 
-.container2 {
+.container{
   padding: 6rem;
   display: flex;
   flex-direction: column;
