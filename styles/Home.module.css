@@ -8,13 +8,13 @@
 
  .layout::before {
   animation: Grain 6s steps(10) infinite;
-  background-image: url(/images/noise.png);
+  background-image: url(../images/noise.png);
   background-size: 180px 180px;
   background-repeat: repeat;
   content: "";
   height: 300%;
   left: -50%;
-  opacity: 1;
+  opacity: 0.25;
   position: fixed;
   top: -100%;
   width: 300%;

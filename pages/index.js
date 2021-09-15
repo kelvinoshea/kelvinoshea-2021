@@ -35,8 +35,6 @@ export default function Home() {
             </a>
           </p>
 
-          <img src="/images/noise.png" alt="Girl in a jacket" width="500" height="600"></img>
-
         </main>
       </div>
       <footer className={styles.iconContainer}>
