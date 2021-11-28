@@ -34,6 +34,12 @@
   height: 119px;
 }
 
+.image {
+  -webkit-clip-path: url(#myClip);
+  clip-path: url(#myClip);
+  width: 960px;
+}
+
 .innerContainer {
   margin-top: 48px;
   display: inline-flex;

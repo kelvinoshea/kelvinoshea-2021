@@ -23,6 +23,7 @@ export default function Home() {
 
           <div className={styles.container}>
             <div className={styles.logo}>
+              <img className={styles.image}src="http://upload.wikimedia.org/wikipedia/commons/thumb/f/f3/Bubbles_in_the_park%2C_Barcelona_%284983834120%29.jpg/636px-Bubbles_in_the_park%2C_Barcelona_%284983834120%29.jpg" />
               <Logo/>
             </div>
             <div className={styles.innerContainer}>
