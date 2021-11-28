@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Dribbble, Instagram, LinkedIn, Twitter } from '../components/Icons/index'
+import { Dribbble, Instagram, LinkedIn, Twitter, Logo } from '../components/Icons/index'
 
 export default function Home() {
   return (
@@ -22,7 +22,9 @@ export default function Home() {
 
 
           <div className={styles.container}>
-            <div className={styles.logo}></div>
+            <div className={styles.logo}>
+              <Logo/>
+            </div>
             <div className={styles.innerContainer}>
             <div className={styles.description}>
               <span className={styles.name}>Kelvin O'Shea</span>
