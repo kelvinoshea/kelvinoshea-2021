@@ -19,30 +19,40 @@ export default function Home() {
           <meta name='viewport' content='width=device-width, initial-scale=1.0, minimal-ui, user-scalable=0'/>
         </Head>
 
-        <main className={styles.main}>
-          <h1 className={styles.title}>
-            Kelvin O'Shea
-          </h1>
 
-          <p className={styles.description}>
-            Product Designer @{' '}
-            <a
-              href="https://clipchamp.com/en/"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Clipchamp
-            </a>
-          </p>
 
-        </main>
+          <div className={styles.container}>
+            <div className={styles.logo}></div>
+            <div className={styles.innerContainer}>
+            <div className={styles.description}>
+              <span className={styles.name}>Kelvin O'Shea</span>
+              <span className={styles.divider}>•</span>
+              <span className={styles.role}>Designer</span>
+              <span className={styles.arrow}>-></span>
+              <span className={styles.employer}>
+                <a
+                  href="https://clipchamp.com/en/"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                >
+                  Clipchamp, Microsoft
+                </a>
+              </span>
+            </div>
+
+              <div className={styles.iconContainer}>
+                <span><LinkedIn/></span>   
+                <span><Dribbble/></span>
+                <span><Twitter/></span>
+                <span><Instagram/></span>
+              </div>
+
+            </div>
+            
+
+          </div>
+
       </div>
-      <footer className={styles.iconContainer}>
-          <span><LinkedIn/></span>   
-          <span><Dribbble/></span>
-          <span><Twitter/></span>
-          <span><Instagram/></span>
-        </footer>
     </div>
   )
 }

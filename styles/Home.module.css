@@ -1,9 +1,11 @@
 .layout {
-  top: 0;
-  bottom: 0;
-  left: 0;
-  right: 0;
-  position: fixed;
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  height: 100vh;
  }
 
  .layout::before {
@@ -20,44 +22,37 @@
   width: 300%;
 }
 
-
 .container {
-  padding: 6rem;
-  height: 100%;
-  display: flex;
-  justify-content: center;
-}
-
-.main {
-  flex: 1;
-  display: flex;
+  width: 960px;
+  display: inline-flex;
   flex-direction: column;
-  justify-content: center;
-  align-items: flex-start;
+  justify-content: space-between;
+}
+
+.logo{
   width: 100%;
+  height: 240px;
+  background-color: red;
 }
 
-.title {
-  margin: 0;
-  margin-bottom: 1.5rem;
-  line-height: 1;
-  font-size: 5rem;
-  font-family: Tobias-Light;
-  user-select: none;
-  animation: TitleFadeIn 1.5s 0.5s cubic-bezier(0.23, 1.0, 0.32, 1.0) both;
-  letter-spacing: -3px;
+.innerContainer {
+  margin-top: 48px;
+  display: inline-flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
 }
 
-.title,
-.description {
-  text-align: left;
-}
 
 .description {
   line-height: 1.5;
-  font-size: 1.125rem;
+  font-size: 1rem;
   user-select: none;
   animation: DescriptionFadeIn 1.5s 1.5s cubic-bezier(0.23, 1.0, 0.32, 1.0) both;
+  text-transform: uppercase;
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 16px;
 }
 
 
@@ -65,24 +60,31 @@
   position: relative;
 }
 
-.description a::before {
-  content: "";
-  width: 100%;
-  height: 1px;
-  background: var(--white);
-  position: absolute;
-  bottom: -0.25rem;
-  transition: 100ms;
-  animation: Underline 1.5s cubic-bezier(0.075, 0.82, 0.165, 1.0) 5s both;
-}
-
 .iconContainer {
   display: inline-grid;
   grid-auto-flow: column;
   grid-gap: 24px;
-  position: fixed;
-  bottom: 6rem;
-  left: 6rem;
+}
+
+.divider {
+  opacity: 30%;
+}
+
+.employer {
+  font-style: italic;
+  transition: 0.2s all;
+}
+
+.employer:hover {
+  opacity: 100%;;
+}
+
+.name, .role, .employer {
+  letter-spacing: 2px;
+}
+
+.role, .arrow, .employer {
+  opacity: 60%;
 }
 
 
