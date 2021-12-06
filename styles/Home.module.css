@@ -40,7 +40,7 @@
   width: 960px;
 }
 
-.innerContainer {
+.details {
   margin-top: 48px;
   display: inline-flex;
   flex-direction: row;
@@ -75,6 +75,12 @@
   opacity: 30%;
 }
 
+.occupation {
+  display: inline-grid;
+  grid-auto-flow: column;
+  grid-gap: 16px;
+}
+
 .employer {
   font-style: italic;
   transition: 0.2s all;
@@ -91,6 +97,7 @@
 .role, .arrow, .employer {
   opacity: 60%;
 }
+
 
 
 .iconContainer span {
@@ -127,23 +134,54 @@
   animation-delay: 3.75s;
 }
 
-@media screen and (max-width: 767px) {
-  .title {
-    font-size: 3rem;
-    margin-bottom: 0.75rem;
-  }
+/* Media Queries */
 
-  .description {
-    font-size: 1rem;
+@media screen and (max-width: 1024px) {
+  .layout {
+    padding: 1.5rem;
   }
 
   .container {
-    padding: 2.5rem;
+    width: 100%;
+    height: 100%;
   }
 
-  .iconContainer {
-    bottom: 2.5rem;
-    left: 2.5rem;
+  .logo {
+    width: calc(100vw/1.618);
+    flex: 1;
+  }
+
+  .details {
+    flex-direction: column;
+    flex: 1;
+    justify-content: space-between;
+    margin-top: 0;
+    align-items: flex-start;
+  }
+
+  .description {
+    font-size: 15px;
+    display: flex;
+    flex-wrap: wrap;
+    grid-gap: 8px;
+  }
+
+  .title {
+    min-width: 100%;
+  }
+
+  .divider {
+    display: none;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .description {
+  }
+
+  .occupation {
+    grid-gap: 8px;
+    font-size: 13px;
   }
 }
 
