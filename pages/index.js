@@ -2,7 +2,10 @@ import Head from 'next/head'
 import styles from '../styles/Home.module.css'
 import { Dribbble, Instagram, LinkedIn, Twitter, Logo } from '../components/Icons/index'
 
+
+
 export default function Home() {
+    
   return (
     <div className={styles.layout}>
         <Head>
@@ -26,6 +29,7 @@ export default function Home() {
               <Logo/>
             </div>
             <div className={styles.details}>
+
               <div className={styles.description}>
                 <div className={styles.title}>
                   <span className={styles.name}>Kelvin O'Shea</span>
