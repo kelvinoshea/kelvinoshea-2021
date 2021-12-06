@@ -34,6 +34,10 @@
   height: 119px;
 }
 
+.logoSmall {
+  display: none;
+}
+
 .image {
   -webkit-clip-path: url(#myClip);
   clip-path: url(#myClip);
@@ -172,6 +176,14 @@
 
   .divider {
     display: none;
+  }
+
+  .logoLarge {
+    display: none;
+  }
+
+  .logoSmall {
+    display: inline-block;
   }
 }
 

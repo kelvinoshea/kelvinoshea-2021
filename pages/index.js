@@ -1,6 +1,6 @@
 import Head from 'next/head'
 import styles from '../styles/Home.module.css'
-import { Dribbble, Instagram, LinkedIn, Twitter, Logo } from '../components/Icons/index'
+import { Dribbble, Instagram, LinkedIn, Twitter, Logo, LogoSmall } from '../components/Icons/index'
 
 
 
